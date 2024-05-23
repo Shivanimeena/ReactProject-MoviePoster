@@ -1,0 +1,44 @@
+
+
+.App-header {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background:  linear-gradient(to right, rgba(0,0,0,1) 0%, rgb(28, 26, 26) 50%, rgba(129, 124, 124, 1) 100%);
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.nav-span {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #eeeeee;
+    text-decoration: none;
+    font-weight: thin;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+ }
+
+.nav-span:hover {
+    color: #19a98f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    transition: all 0.3s ease;
+}
+
+.nav-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

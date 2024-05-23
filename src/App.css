@@ -1,0 +1,15 @@
+
+.active { 
+   
+   background-color: transparent;
+   border: 1px solid hsl(122, 79%, 80%);
+   border-radius: 30px;
+   padding: 5px; 
+}
+
+
+body::-webkit-scrollbar {
+   display: none;
+}
+
+

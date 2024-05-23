@@ -1,0 +1,30 @@
+
+
+.card {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(206, 246, 180);
+    border-radius: 10px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2px;
+}
+
+.card-img{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px 10px 0 0;
+    color: black;
+}
+
+.card-title{ 
+    height: 25%;
+    background-color: #232323;
+    border-radius: 0 0 10px 10px;
+    font-size: small;
+    padding: 5px;
+    overflow: hidden;
+}
